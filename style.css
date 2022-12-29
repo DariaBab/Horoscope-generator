@@ -1,0 +1,105 @@
+html {
+  min-height: 100%;
+  background-image: radial-gradient(ellipse farthest-corner at center top, hsla(230, 100%, 15%, 1) 0%, hsla(231, 90%, 1%, 1) 100%);
+
+
+}
+
+body {
+  width: 100%;
+  margin:  0;
+  overflow: hidden;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.main {
+  margin: 4% auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#svg {
+  margin:  auto;
+  display: flex;
+  width: 500px;
+  height: 500px;
+}
+
+
+.new {
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  width: 230px;
+  
+}
+
+
+.scorpio, .aquarius, .aries, .cancer, .capricorn, .gemini, .leo, .libra, .pisces, .sagittarius, .taurus, .virgo{
+  cursor: pointer;
+}
+
+.scorpio:hover {
+  fill: url(#gradient);
+  opacity: 1;
+  
+}
+
+.aquarius:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.aries:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.cancer:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.capricorn:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.gemini:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.leo:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.libra:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.pisces:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.sagittarius:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+
+.taurus:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
+.virgo:hover {
+  fill: url(#gradient);
+  opacity: 1;
+}
