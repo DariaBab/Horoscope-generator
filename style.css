@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  font-size: 16px;
   width: 100%;
   margin:  0;
   overflow: hidden;
@@ -14,9 +15,15 @@ body {
   
 }
 
+ .button {
+  margin-top: 10px;
+  margin-right: 10px;
+ float: right;
+ 
+} 
+
 .main {
   margin: 4% auto;
-  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
@@ -26,16 +33,16 @@ body {
 #svg {
   margin:  auto;
   display: flex;
-  width: 500px;
-  height: 500px;
+  width: 530px;
+  height: 530px;
 }
 
 
 .new {
   position: absolute;
   text-align: center;
-  padding: 0;
-  width: 230px;
+  padding-top: 10px;
+  width: 250px;
   
 }
 
